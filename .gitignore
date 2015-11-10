@@ -1,0 +1,5 @@
+/.bundle/
+/Germfile.lock
+/tmp/
+/spec/reports/
+/pkg/

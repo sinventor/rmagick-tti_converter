@@ -1,0 +1,22 @@
+language: ruby
+
+sudo: false
+
+before_install:
+  - gem install rmagick -v 2.15.4
+  - gem install rspec -v 3.3
+  - gem install rake -v 10.4.2
+  - gem install bundler -v 1.10.6
+
+install: echo 'All prepared already'
+
+script: rake
+
+notifications:
+  email:
+    - rushan_oline@mail.ru
+    - rushan_pro@mail.ru
+
+rvm:
+  - 2.1.1
+  - 2.1.3
