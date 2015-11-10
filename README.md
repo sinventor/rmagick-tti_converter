@@ -22,7 +22,7 @@ Or install it yourself as:
 ```ruby
 require 'rmagick/tti_converter'
 
-text_wrapper = Magick::TTIConverter.new("./imgs_with_txt/")
+text_wrapper = Magick::TTIConverter.new("./generated_images/")
 
 sirius_text =<<-SomeTextD
  Sirius, also known as the Dog Star or Sirius A, is the brightest star in Earth's night sky. The name means "glowing" in Greek. With a visual magnitude of -1.46, the star is outshone only by several planets as well as the International Space Station.
